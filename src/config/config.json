@@ -1,0 +1,30 @@
+{
+  "site": {
+    "title": "lazy_dev's Blog",
+    "base_url": "",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "200",
+    "logo_height": "34",
+    "logo_text": "lazy_dev"
+  },
+  "settings": {
+    "pagination": 5,
+    "summary_length": 100
+  },
+  "metadata": {
+    "meta_author": "Venusai",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Venusai's blog site"
+  },
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Copyright ©️ 2024 by [Venusai](https://github.com/Venu005)"
+  },
+  "contactinfo": {
+    "email": "venusaiyalamnchili@gmail.com",
+    "github": "https://github.com/Venu005"
+  }
+}
