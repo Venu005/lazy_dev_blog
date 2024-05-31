@@ -18,8 +18,8 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Authors",
-          "url": "/authors"
+          "name": "Author",
+          "url": "/author"
         },
         {
           "name": "Categories",
