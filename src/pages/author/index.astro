@@ -1,0 +1,23 @@
+---
+import config from  "../../config/config.json"
+import Base from "../../layouts/Base.astro";
+import Author from "../../layouts/Author.astro";
+import Pagination from "../../layouts/components/Pagination.astro";
+import { getSinglePage } from "../../lib/contentParser.astro";
+import { sortByDate } from "../../lib/utils/sortFunctions";
+import { markdownify } from "../../lib/utils/textConverter";
+const authors = await getSinglePage("authors");
+const sortedPosts = sortByDate(authors);
+const totalPages = Math.ceil(authors.length / config.settings.pagination);
+const currentPosts = sortedPosts.slice(0, config.settings.pagination);
+---
+
+<Base title="Author">
+ <section class="section">
+  <div class="container text-center">
+    <h1 set:html= {markdownify("Author")}/>
+    <Author  author = {currentPosts}/>  
+    <Pagination section={"author"} currentPage={1} totalPages={totalPages} />
+</div>
+ </section>
+</Base>
