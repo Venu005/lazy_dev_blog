@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "lazy_dev_blog",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -11,10 +11,11 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
-    "@astrojs/mdx": "^3.0.1",
+    "@astrojs/mdx": "^2.0.0-beta.0",
     "@astrojs/react": "^3.4.0",
     "@astrojs/sitemap": "^3.1.5",
     "@astrojs/tailwind": "^5.1.0",
+    "@emailjs/browser": "^4.3.3",
     "@types/react-dom": "^18.3.0",
     "astro": "^4.9.2",
     "astro-auto-import": "^0.4.2",
@@ -38,6 +39,7 @@
     "@types/github-slugger": "^2.0.0",
     "@types/marked": "^6.0.0",
     "@types/react": "^18.3.3",
+    "dotenv": "^16.4.5",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "prettier-plugin-astro": "^0.14.0",
