@@ -1,4 +1,17 @@
 // navbar toggler
+:root {
+  --color-text: #000;
+  --color-background: #fff;
+}
+
+[data-theme="dark"] {
+  --color-text: #fff;
+  --color-background: #000;
+}
+body {
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
 input#nav-toggle:checked ~ label#show-button {
   @apply hidden;
 }

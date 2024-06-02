@@ -3,7 +3,7 @@ const {source, className} =  Astro.props
  import {IoLogoGithub,IoLogoLinkedin,IoLogoTwitter, IoMail,IoGlobeOutline} from "react-icons/io5"
  const {twitter, linkedin, github,email,website} =  source
 ---
-<ul class={className}>
+<ul class={className}  >
   {
     twitter && (
       <li class="inline-block">
@@ -48,21 +48,21 @@ const {source, className} =  Astro.props
   }
   {
     email && (
-      <li class="inline-block">
+      <li class="inline-block ">
         <a
           aria-label="email"
           href={`mailto:${email}`}
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoMail />
+          <IoMail  />
         </a>
       </li>
     )
   }
   {
     website && (
-      <li class="inline-block">
+      <li class="inline-block ">
         <a
           aria-label="website"
           href={website}
