@@ -1,19 +1,15 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 import react from "@astrojs/react";
 import mdx from "@astrojs/mdx";
 import tailwind from "@astrojs/tailwind";
 
 import sitemap from "@astrojs/sitemap";
-import dotenv from 'dotenv'
+
+import vercel from "@astrojs/vercel/serverless";
 // https://astro.build/config
-dotenv.config();
+
 export default defineConfig({
-  site: "",
+  output: "server",
+  adapter: vercel(),
   integrations: [react(), mdx(), tailwind(), sitemap()],
-  publicRuntimeConfig: {
-    emailjs: {
-      serviceId: process.env.SERVICE_ID,
-      templateId: process.env.TEMPLATE_ID,
-    },
-  },
 });
