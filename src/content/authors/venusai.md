@@ -1,6 +1,6 @@
 ---
 title: Venusai
-image: /images/authors/john-doe.jpg
+image: /images/authors/venu.png
 description: I am an undergrad student at IIITDM Kurnool, I love tech and I write blogs.
 social:
   twitter: https://twitter.com/__venusai/

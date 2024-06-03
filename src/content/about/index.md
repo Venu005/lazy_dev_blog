@@ -1,23 +1,18 @@
 ---
-title: "I’m John Doe, A content writer based in LDN, Currently at Bookworm"
+title: "Lazy dev's blog post"
 meta_title: "About"
-image: "/images/author.png"
+image: "/images/post-hello.png"
 draft: false
-
-what_i_do:
-  title: "What I Do"
-  items:
-  - title: "Content Writing"
-    description: "Purus eget ipsum elementum venenatis, quis rutrum mi semper nonpurus eget ipsum elementum venenatis."
-  
-  - title: "Photography"
-    description: "Aenean maximus urna magna elementum, quis rutrum mi semper non purus eget ipsum venenatis."
-  
-  - title: "Web Research"
-    description: "Aenean maximus urna magna elementum venenatis, quis semper non purus eget ipsum venenatis."
-
 ---
 
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis quis non purus.
+Welcome to lazy_dev's blog! This platform was meticulously crafted using <span style="color: teal; font-weight: bold;">Astro.js</span>, a modern framework designed for building faster websites with less client-side JavaScript.
 
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis, aenean maximus urna magna elementum.
+This project leverages the simplicity and power of Astro.js to deliver a high-performance experience. I chose Astro because it allows us to write less JavaScript, ensuring that the site remains fast and efficient without sacrificing the dynamic capabilities of JavaScript.
+
+<span style="color: white; font-weight: bold;">Static Site Generation: </span> We use Astro's built-in capabilities to generate static pages from Markdown and MDX files, making our content fast to load and easy to manage.
+
+<span style="color: white; font-weight: bold;">Dynamic Components: </span> Where interactivity is needed, we introduce React components, which Astro seamlessly hydrates on the client side.
+
+<span style="color: white; font-weight: bold;">Styling Freedom: </span> Styled with Tailwind CSS for a clean and modern look, easily customizable and responsive out of the box.
+
+<span style="color: white; font-weight: bold;">Development Journey: </span> The development of this project was a journey of learning and adaptation. We embraced the following practices to ensure a robust and maintainable codebase

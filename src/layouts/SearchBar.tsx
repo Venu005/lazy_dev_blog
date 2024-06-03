@@ -62,9 +62,9 @@ export default function SearchBar({ searchList }: Props) {
   }, [inputVal]);
 
   return (
-    <div className="min-h-[45vh]">
+    <div className="min-h-[45vh] ">
       <input
-        className="form-input w-full text-center"
+        className="form-input w-full text-center bg-theme-dark text-white"
         placeholder="Type here to Search posts"
         type="text"
         name="search"
