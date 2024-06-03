@@ -1,11 +1,10 @@
-import { defineConfig } from "astro/config";
+import { defineConfig, squooshImageService } from "astro/config";
 import react from "@astrojs/react";
 import mdx from "@astrojs/mdx";
 import tailwind from "@astrojs/tailwind";
-import config from "./src/config/config.json"
+import config from "./src/config/config.json";
 
 // https://astro.build/config
-
 
 export default defineConfig({
   //site: config.site.base_url ? config.site.base_url : "http://examplesite.com",
