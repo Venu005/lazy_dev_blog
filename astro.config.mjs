@@ -8,6 +8,7 @@ import dotenv from 'dotenv'
 // https://astro.build/config
 dotenv.config();
 export default defineConfig({
+  site: "",
   integrations: [react(), mdx(), tailwind(), sitemap()],
   publicRuntimeConfig: {
     emailjs: {

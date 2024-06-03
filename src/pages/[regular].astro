@@ -6,7 +6,7 @@ import PostSingle from "../layouts/PostSingle.astro";
 import { getSinglePage } from "../lib/contentParser.astro";
 import type { TPost } from "../types";
 
-const getPosts =  (await getSinglePage("posts")) as TPost[];
+const getPosts =  (await getSinglePage("posts")) as any[];
 const postsSlug =   getPosts.map((item)=> item.slug);
 
 export async function getStaticPaths(){
