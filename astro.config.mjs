@@ -3,7 +3,9 @@ import react from "@astrojs/react";
 import mdx from "@astrojs/mdx";
 import tailwind from "@astrojs/tailwind";
 import config from "./src/config/config.json";
-
+import AutoImport from "astro-auto-import";
+import remarkCollapse from "remark-collapse";
+import remarkToc from "remark-toc";
 // https://astro.build/config
 
 export default defineConfig({
